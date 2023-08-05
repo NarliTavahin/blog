@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Lato:wght@100&family=Manrope:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* --------------bg--------------- */
+.bg-2 {
+    background-color: #121212;
+}
+
+.bg-3 {
+    background-color: #272b30;
+}
+
+.title {
+    padding: 5% 20% !important;
+}
+/* --------------Border-Custom--------------- */
+.border-custom {
+    border: 1px solid #7a8288;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+.border-custom:hover {
+    border-color: #007bff;
+}
+/* --------------Navbar--------------- */
+.navbar {
+    --bs-navbar-nav-link-padding-x: 1.4rem !important;
+    background-color: #f75a00 !important;
+}
+
+.logo {
+    color: #eefaef;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.txt-nav {
+    color: #fff !important;
+}
+
+.img-me {
+    border-radius: 50%;
+    width: 350px !important;
+    height: 600px !important;
+    background-size: cover !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+}
+.txt-desc {
+    width: 100% !important;
+    text-align: justify !important;
+    color: #8e910e;
+}
+
+/* --------------Skill Main--------------- */
+.skill {
+    padding-bottom: 55px;
+}
+
+
+.skill div {
+    line-height: 30px;
+    
+}
+
+.skill h5 {
+    color: #eefaef;
+    font-size: 15px;
+}
+
+.skill > span {
+    color: #88550d;
+    display: block;
+    clear: both;
+    border-top: 1px solid rgba(136, 172, 37, 0.836);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.skill div span {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+h3.subtitle {
+    position: relative;
+}
+
+h3.subtitle svg {
+    position: absolute;
+    top: 40px;
+    left: -22px;
+}
+
+
+/* --------------Link Custom-Long--------------- */
+.link-custom-long {
+    font-weight: 700;
+    position: relative;
+    color: #e6f7d7;
+    text-decoration: none!important;
+}
+
+.link-custom-long::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(238, 95, 91);
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    transition: all 0.4s;
+}
+
+.link-custom-long:hover::after {
+    width: 64%;
+}
+
+/* --------------Link Custom--------------- */
+.link-custom {
+    font-weight: 700;
+    position: relative;
+    color: #e6f7d7;
+    text-decoration: none!important;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(238, 95, 91);
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 17%;
+}
+/* --------------Btns--------------- */
+ .btn {
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 0 10px;
+ } 
+.btn1 {
+    padding: 10px 46px;
+    margin: 0 10px;
+}
+.txt {
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 8px;
+}
+/* --------------Me--------------- */
+.box {
+   padding: 0 20% !important;
+}
+.text-brand {
+    color: #1edb0d;
+}
+
+.bg-base {
+    background-color: #FF6000;
+}
+
+/* --------------Skills--------------- */
+.lh {
+    line-height: 35px;
+}
+
+.skill {
+    padding: 0 25% !important;
+}
+.txt-white {
+    color: #fff;
+}
+
+
+
+/* --------------------card-sustom--------------------- */
+.card-sustom {
+    width: 460px;
+    height: 460px;
+}
+.card-sustom .card-custom-img {
+    overflow: hidden;
+ }
+
+.card-sustom .card-custom-img img {
+    transition: all 0.4s ease;
+}
+
+.card-sustom:hover .card-custom-img img {
+    transform: scale(1.1);
+}
+
+.card-sustom .card-custom-content {
+    line-height: 37px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #eefaef;
+}
+/* --------------CV--------------- */
+.txt-pink {
+    color: #ff69b4;
+    font-weight: bold;
+    font-style: 18px;
+    text-indent: 15px;
+}
+.txt-pink-title {
+line-height: 30px;
+color: #1edb0d;
+}
+
+.txt-blue-title {
+    color: #14aa07;
+    font-weight: bold;
+    font-style: 18px;
+}
+.txt-blue-desc-1 {
+    color: #1E90FF;
+    font-weight: bold;
+    line-height: 55% !important;
+}
+.txt-blue-desc-2 {
+    color: #aaa;
+    margin-left:20px;
+    font-weight: bold;
+}
+
+
+/* --------------Icon--------------- */
+.icon {
+    width: 60px;
+    height: 60px;
+    font-size: 33px;
+    background-color: #555;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon:hover {
+    background-color: #007bff;
+}
+
+.service:hover .icon {
+    background-color: #007bff;
+}
+
+
+/* --------------Swiper--------------- */
+.swiper-pagination-bullet {
+    background-color: white;
+}
+.swiper-slide img {
+    width: 500px;
+    height: 386px;
+}
+
+/* --------------Project--------------- */
+.project {
+    overflow: hidden;
+    position: relative;
+}
+
+.project .overlay {
+    padding: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.project:hover .overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/* --------------Contact--------------- */
+
+#contact .form-control {
+    background-color: transparent;
+    border: 1px solid #555;
+    border-radius: 0;
+    padding: 10px;
+    color: white;
+}
+
+
+#insta-section {
+    position: relative;
+}
+
+#insta-section .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --------------Footer--------------- */
+
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: var(--bs-body);
+}
+
+
+.social-icons a {
+    padding: 2px 10px;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5F00;
+    border-radius: 100px;
+    font-size: 33px;
+}
